@@ -1,5 +1,43 @@
-body
-  padding: 50px
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif
+@import nib
+global-reset()
+
+@import home
 a
-  color: #00B7FF
+  cursor pointer
+
+body
+  background-color #121212
+  margin 0
+  padding 0
+  color #efefef
+  font-family Arial
+  font-size 12px
+
+
+.container
+  margin: 0 auto
+  margin-top 100px
+  width 960px
+
+.l-nav
+  border 1px solid #efefef
+  border-left 0
+  border-right 0
+  clearfix()
+  list-style-type none
+  margin 0
+  padding 0
+  li
+    padding 10px 0
+    text-align center
+    // width 20%
+    float left
+    margin-right 1px
+    a
+      padding 15px
+      display block
+      transition color .3s linear
+      transition background-color .3s linear
+      &.active, &:hover
+        background-color: #efefef
+        color #121212

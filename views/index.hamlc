@@ -1,0 +1,21 @@
+.container
+  %ul.l-nav
+    %li
+      %a.active HOME
+    %li
+      %a THE EXPERIENCE
+    %li
+      %a THE INSTRUCTOR
+    %li
+      %a THE INVESTMENT
+    %li
+      %a CONTACT
+
+  %img.logo{src: '/images/logo.png'}
+  .b-info
+    %p
+      From beginners with big dreams to practicing pros Drum Stick Chicago brings you exclusive and personal drum instruction to your home tailored to your level and style.
+    %p
+      Sessions starting at only $30 with various package options.
+    %p
+      Explore your passion for percussion and contact drumstickchicago@gmail.com to schedule your personal one-on-one session today!

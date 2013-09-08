@@ -1,11 +1,11 @@
-express = require('express')
-routes = require('./routes')
-user = require('./routes/user')
-http = require('http')
-path = require('path')
-partials = require('express-partials')
-nib = require 'nib'
-stylus = require 'stylus'
+express   = require 'express'
+routes    = require './routes'
+user      = require './routes/user'
+http      = require 'http'
+path      = require 'path'
+partials  = require 'express-partials'
+nib       = require 'nib'
+stylus    = require 'stylus'
 
 app = express()
 
