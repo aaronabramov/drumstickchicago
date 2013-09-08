@@ -20,7 +20,7 @@ compile = (str, path) ->
 
 
 app.configure ->
-  app.set('port', process.env.PORT || 3000)
+  app.set('port', process.env.PORT || 3001)
   app.set('views', __dirname + '/views')
   app.set('view engine', 'hamlc')
   app.set('layout', 'layout')
