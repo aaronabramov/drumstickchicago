@@ -9,9 +9,7 @@
     "express": "3.0.3",
     "express-partials": "*",
     "haml-coffee": "*",
-    "jade": "*",
     "stylus": "*",
-    "node-sass": "*",
     "nib": "*",
     "forever": "*"
   }
